@@ -1,0 +1,26 @@
+Layer 8: Application - Orchestrates everything
+    main.odin
+
+Layer 7: Platform - handles window creation
+    platform_windows.odin
+
+Layer 6: Scene and Camera
+
+Layer 5: Transform and Geometry
+
+Layer 4: Graphics Pipeline
+
+Layer 3: Rasterizer
+    rasterizer.odin
+
+Layer 2: Framebuffer - owns pixel memory
+    framebuffer.odin
+
+Layer 1: Memory and Primitives
+    math.odin, fixed_point.odin
+
+
+
+
+
+
